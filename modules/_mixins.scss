@@ -1,2 +1,6 @@
 @import 'card';
 @import 'variables';
+
+@mixin get-border() {
+  return $border;
+}
