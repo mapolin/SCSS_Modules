@@ -1,1 +1,5 @@
+@import 'modules/card';
 
+.kool-card {
+  @extend %card;
+}
