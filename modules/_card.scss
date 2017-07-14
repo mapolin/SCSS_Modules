@@ -1,2 +1,7 @@
 @import 'variables';
 @import 'mixins';
+
+%card {
+  border: @get-border();
+  padding: $padding;
+}
