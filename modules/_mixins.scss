@@ -1,6 +1,6 @@
 @import 'card';
 @import 'variables';
 
-@mixin get-border() {
-  return $border;
+@function get-border() {
+  @return $border;
 }
